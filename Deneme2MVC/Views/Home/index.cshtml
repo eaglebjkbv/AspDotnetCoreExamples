@@ -1,0 +1,9 @@
+<h1>Merhaba Dünya Nasılsın</h1>
+@if (Model != null) {
+    for (var i = 0; i < Model.Count; i++) {
+    @Model[i].Ad 
+    @Model[i].ID
+
+        <br>
+    }
+}
